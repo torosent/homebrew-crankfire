@@ -7,7 +7,7 @@ class Crankfire < Formula
   on_macos do
     on_intel do
       url "https://github.com/torosent/crankfire/releases/download/v0.0.0/crankfire_darwin_amd64.tar.gz"
-      sha256 "73d794535326f50cddbc5207a551bf3a276f7ad3b5ff412912406e340394564b"
+      sha256 "8f471025fa35ea0460712f13f6b50c49fd1321739c02bff90202f9511312a0ae"
     end
     on_arm do
       url "https://github.com/torosent/crankfire/releases/download/v0.0.0/crankfire_darwin_arm64.tar.gz"
@@ -18,7 +18,7 @@ class Crankfire < Formula
   on_linux do
     on_intel do
       url "https://github.com/torosent/crankfire/releases/download/v0.0.0/crankfire_linux_amd64.tar.gz"
-      sha256 "9e8caf17bd58b41995f63cd2d988cfa5d66579ca35a7d11e91cfc5c1987da281"
+      sha256 "e16c6cff45ed90b9744de9b3953bfd44f6dad3c9cbf2761fa820bfaa4f3412fc"
     end
     on_arm do
       url "https://github.com/torosent/crankfire/releases/download/v0.0.0/crankfire_linux_arm64.tar.gz"
