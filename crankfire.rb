@@ -1,28 +1,28 @@
 class Crankfire < Formula
   desc "Optimized command-line load testing tool for HTTP endpoints"
   homepage "https://github.com/torosent/crankfire"
-  version "0.5.1"
+  version "0.5.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/torosent/crankfire/releases/download/v0.5.1/crankfire_darwin_amd64.tar.gz"
-      sha256 "13b24d7f3cbe3f0ff25a840282f63ae6ac65d66e3ccab4f0c102d180c2acdac5"
+      url "https://github.com/torosent/crankfire/releases/download/v0.5.2/crankfire_darwin_amd64.tar.gz"
+      sha256 "6cae09ad61f9f1b3b7964998e8b994b2ba67fe2a848d86acad3f945c45819670"
     end
     on_arm do
-      url "https://github.com/torosent/crankfire/releases/download/v0.5.1/crankfire_darwin_arm64.tar.gz"
-      sha256 "6073e860771b0401daa6eddd7a529f21bb27d1dd7f8fa16e0b602d87fc1331a3"
+      url "https://github.com/torosent/crankfire/releases/download/v0.5.2/crankfire_darwin_arm64.tar.gz"
+      sha256 "6325e769d48c68a4797ba1db899c3dacf27da7c5e30c3ec8b5dac7f05687821d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/torosent/crankfire/releases/download/v0.5.1/crankfire_linux_amd64.tar.gz"
-      sha256 "cf995d7c14ba253c13d864c9ce0e51e67180743da55f6fea67d1d3ec93a7b2c6"
+      url "https://github.com/torosent/crankfire/releases/download/v0.5.2/crankfire_linux_amd64.tar.gz"
+      sha256 "6f1faa4183fc33a505d9c0da6042516a96a6967780e5b061e29447905fb32bd0"
     end
     on_arm do
-      url "https://github.com/torosent/crankfire/releases/download/v0.5.1/crankfire_linux_arm64.tar.gz"
-      sha256 "86d4e40d50b11ea98302c989f46577832638091581021324f90048c5a167715b"
+      url "https://github.com/torosent/crankfire/releases/download/v0.5.2/crankfire_linux_arm64.tar.gz"
+      sha256 "67c110aeadbd07663c24aae2182d10e01f7cbdfeab89b32dc2b59a7f6d4ef046"
     end
   end
 
